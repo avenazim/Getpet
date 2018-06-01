@@ -1,0 +1,2 @@
+# getpet
+Projekt SamsungLabo
