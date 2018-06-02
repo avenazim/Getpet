@@ -52,11 +52,17 @@ h3 {
 	padding-top: 14%;
 	padding-bottom: 1%;
 	overflow: hidden;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+    	color: #114150;
+    	font-weight: 700;
+    	text-transform: uppercase;
 }
 .jumbotron h2{
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+    	color: #114150;
+    	font-weight: 700;
+    	text-transform: uppercase;
 }
 .intro { 
 	margin: 2% 0;
