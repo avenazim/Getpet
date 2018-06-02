@@ -52,9 +52,11 @@ h3 {
 	padding-top: 14%;
 	padding-bottom: 1%;
 	overflow: hidden;
+	font-family: 'Open Sans', sans-serif;
 }
 .jumbotron h2{
 	text-align: center;
+	font-family: 'Open Sans', sans-serif;
 }
 .intro { 
 	margin: 2% 0;
