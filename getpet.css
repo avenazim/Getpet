@@ -55,6 +55,7 @@ h3 {
     	color: #114150;
     	font-weight: 700;
     	text-transform: uppercase;
+	font-size: inherit;
 }
 .jumbotron h2{
 	text-align: center;
@@ -62,6 +63,7 @@ h3 {
     	color: #114150;
     	font-weight: 700;
     	text-transform: uppercase;
+	font-size: inherit;
 }
 .intro { 
 	margin: 2% 0;
