@@ -132,7 +132,8 @@ h3 {
 	overflow:hidden;
 	/*height:400px;
 	width:600px;*/
-	margin-right:5%
+	margin-right: 5%;
+	margin-left: 5%;
 }
 
 .inner-frame {
