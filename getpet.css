@@ -14,7 +14,7 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 .info {margin-top: 10%;}
-.similar{opacity:0.7; border-radius: 50%; margin-right: 10%;}
+.similar{opacity:0.7; border-radius: 50%; max-width: 100%; margin-right:25%; margin-left:25%;}
 
 .navbar-default {
     background-color: #ffffff;
@@ -130,15 +130,15 @@ h3 {
 
 .map-frame {
 	overflow:hidden;
-	height:400px;
-	width:600px;
-	margin-top: 10%;
-	margin-right: 10%;
+	/*height:400px;
+	width:600px;*/
+	margin-right:25%;
+	margin-left:25%
 }
 
 .inner-frame {
-	height:300px;
-	width:500px;
+	/*height:300px;
+	width:500px;*/
 }
 
 #gmap_canvas img {
