@@ -46,26 +46,18 @@ h3 {
 	height: 32vw;
 	background-attachment: fixed;
 }
-.jumbotron h1{
+.jumbotron p{
 	text-align: center;
 	padding-top: 14%;
-	padding-bottom: 1%;
+	padding-bottom: 14%;
 	overflow: hidden;
 	font-family: 'Montserrat', sans-serif;
     	color: #114150;
     	font-weight: 700;
     	text-transform: uppercase;
-	font-size: inherit;
+	font-size: 4vw;
 }
-.jumbotron h2{
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-    	color: #114150;
-    	font-weight: 700;
-    	text-transform: uppercase;
-	font-size: inherit;
-	padding-bottom: 14%;
-}
+
 .intro { 
 	margin: 2% 0;
 	padding-top: 10px;
