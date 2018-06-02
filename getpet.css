@@ -46,7 +46,7 @@ h3 {
 	height: 32vw;
 	background-attachment: fixed;
 }
-.jumbotron p{
+.jumbotron p:first-child{
 	text-align: center;
 	margin-top: 3vh;
 	margin-bottom: 3vh;
@@ -56,6 +56,17 @@ h3 {
     	font-weight: 700;
     	text-transform: uppercase;
 	font-size: 3vw;
+}
+.jumbotron p:last-child {
+    	font-weight: 400;
+    	font-size: 2vw;
+	text-align: center;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+	overflow: hidden;
+	font-family: 'Montserrat', sans-serif;
+    	color: #114150;
+    	text-transform: uppercase;
 }
 
 .intro { 
