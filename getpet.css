@@ -47,9 +47,9 @@ h3 {
 	background-attachment: fixed;
 }
 .jumbotron p{
-	text-align: center;
-	padding-top: 14%;
-	padding-bottom: 14%;
+	text-align: center center;
+	margin-top: 14%;
+	margin-bottom: 14%;
 	overflow: hidden;
 	font-family: 'Montserrat', sans-serif;
     	color: #114150;
