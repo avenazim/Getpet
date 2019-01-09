@@ -14,23 +14,21 @@ h3 {
 	font-family: 'Open Sans', sans-serif;
 }
 .info {margin-top: 10%;}
-.similar{opacity:0.7; border-radius: 50%; max-width: 100%; max-height: 100%; margin-right:5%; margin-left: 1%; overflow: hidden;}
+.similar{opacity:0.7; border-radius: 50%; max-width: 100%; padding: 4%;}
 
 .navbar-default {
     background-color: #ffffff;
     border-color: #e7e7e7;
+    box-shadow: 2px 2px 16px 4px darkgrey;
 }
-
 .navbar-header {
 	height: 80px;
 }
-
 .navbar-brand img {
 	height: 64px;
 	width: auto;
 	overflow: scroll;
 }
-
 .navbar-text {
 	padding-right: 30px;
 	padding-top: 20px;
@@ -47,28 +45,27 @@ h3 {
 	background-attachment: fixed;
 }
 .jumbotron p:first-child{
-	text-align: center;
-	margin-top: 3vh;
-	margin-bottom: 3vh;
-	overflow: hidden;
-	font-family: 'Montserrat', sans-serif;
-    	color: #114150;
-    	font-weight: 700;
-    	text-transform: uppercase;
-	font-size: 3vw;
+    text-align: center;
+    margin-top: 5%;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #114150;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 4vw;
 }
 .jumbotron p:last-child {
-    	font-weight: 400;
-    	font-size: 2vw;
+    font-weight: 400;
+    font-size: 2vw;
 	text-align: center;
-	margin-top: 3vh;
-	margin-bottom: 3vh;
 	overflow: hidden;
 	font-family: 'Montserrat', sans-serif;
-    	color: #114150;
-    	text-transform: uppercase;
+    color: #114150;
+    text-transform: uppercase;
 }
-
+.menu a{
+	color: cadetblue;
+}
 .intro { 
 	margin: 2% 0;
 	padding-top: 10px;
@@ -84,6 +81,7 @@ h3 {
 }
 .thumbnail p {
 	margin: 6% 0;
+	height: 100px;
 }
 .thumbnail img{
 	padding-top: 50px;
@@ -129,39 +127,26 @@ h3 {
 }
 
 .map-frame {
-	overflow:hidden;
-	/*height:400px;
-	width:600px;*/
-	margin-right: 5%;
-	margin-left: 5%;
+	overflow: hidden;
+    max-width: 100%;
+    padding: 7%;
 }
-
-.inner-frame {
-	/*height:300px;
-	width:500px;*/
-}
-
 #gmap_canvas img {
-	width: 100%;
-	height: :100%;
-	/*max-width:none!important;
-	background:none!important;*/
+	max-width: 100%;
+	max-height: 100%;
 }
 
 footer {
 	padding: 10px;
-	background-color: #333;
+    background-color: lightsteelblue;
 	text-align: center;
 	color: #fff;
 	margin-top:10%;
 	margin-bottom: 0;
 }
-.icon{
+#stopka p{
 	font-size: 10px;
+	color: darkcyan;
+	font-style: oblique;
 
-}
-.row{
-	padding-top: 30px;
-	margin-right: -15px;
-    margin-left: -15px;
 }
