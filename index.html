@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="getpet">
         <meta name="author" content="">
-        <link rel="shortcut icon" href="favicon.png"/>
+        <link rel="shortcut icon" href="images/favicon.png"/>
         <title>Getpet - adopcja zwierząt.</title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -22,11 +22,10 @@
         <nav class="navbar navbar-default">
           <div class="container">
             <div class="navbar-header">
-              <a class="navbar-brand" href="#" title="logo">
-                <img src="logo1.jpg" alt="logo">
+              <a class="navbar-brand" href="#">
+                <img src="images/logo1.jpg">
               </a>
             </div>
-            <p class="navbar-text navbar-right"></p>
           </div>
         </nav>
         <div class="container">
@@ -35,7 +34,7 @@
                 <p>Sprawdź największą bazę zwierząt do adopcji.</p>
             </div>
             <!--MENU-->
-            <div class="menu" id="menu2">
+            <div class="menu">
                 <ul class="nav nav-tabs nav-justified">
                     <li class="active"><a data-toggle="tab" href="#home">O nas</a></li>
                     <li><a data-toggle="tab" href="#adoption">Zwierzęta do adopcji</a></li>
@@ -55,7 +54,7 @@
                         <div class="row">
                           <div class="col-sm-4 col-md-4">
                             <div class="thumbnail">
-                              <img src="adoption3.png" alt="animals">
+                              <img src="images/adoption3.png" alt="animals">
                               <div class="caption text-center">
                                 <h3>Adopcja</h3>
                                 <p>Chcesz zobaczyć jakie zwierzęta obecnie przebywają w schroniskach wejdź w zakładkę "Zwierzęta do adopcji"
@@ -66,7 +65,7 @@
                           </div>
                           <div class="col-sm-4 col-md-4">
                             <div class="thumbnail">
-                              <img src="shelter3.png" alt="animals">
+                              <img src="images/shelter3.png" alt="animals">
                               <div class="caption text-center">
                                 <h3>Schronisko</h3>
                                 <p> Twoje schronisko chciałoby dołączyć do naszej bazy wejdź w zakładkę "Dla Schronisk" <br/>lub kliknij</p>
@@ -76,7 +75,7 @@
                           </div>
                           <div class="col-sm-4 col-md-4">
                             <div class="thumbnail">
-                              <img src="donation3.png" alt="animals">
+                              <img src="images/donation3.png" alt="animals">
                               <div class="caption text-center">
                                 <h3>Pomoc</h3>
                                 <p>Chcesz wspomóc zwierzęta, bądź schronisko, lecz nie masz warunków na zaadoptowanie zwierzaka ? - odwiedź zakładkę "Dotacje" i wspomóż finansowo wybrane schronisko<br/>lub kliknij</p>
@@ -89,13 +88,13 @@
                     <!--ZWIERZĘTA DO ADOPCJI-->
                     <div class="tab-pane fade forms" id="adoption">
                         <div class="row">
-                            <div class="col-md-6 col-xs-12">
+                            <div class="col-md-6">
                                 <h3 class="text-center text-primary info"><strong>Szukasz wymarzonego zwierzaka?<br/>
                                 Nie zwlekaj!</strong></h3>
                                 <h4 class="text-center text-primary"> Ustaw poniższe kryteria i znajdź takie zwierze, które będzie dla ciebie idealne!</h4>
                             </div>
-                            <div class="col-md-6 col-xs-12">
-                                <img src="similar3.jpg" alt="similar" class="similar">
+                            <div class="col-md-6">
+                                <img src="images/similar3.jpg" alt="similar" class="similar">
                             </div>
                         </div>
                          <hr>
@@ -269,7 +268,7 @@
                         <div class="row">
                             <div class="col-md-6 col-xs-12">
                                 <div class="map-frame">
-                                    <div id='gmap_canvas' class="inner-frame"><img src="mapa.jpg" alt="mapa"></div>
+                                    <div id='gmap_canvas' class="inner-frame"><img src="images/mapa.jpg" alt="mapa"></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-xs-12">
@@ -295,9 +294,7 @@
         </div>
         <!--STOPKA-->
         <footer class="container-fluid" id="stopka">
-            Szczególne podziękowania dla organizatorów projektu <strong>"SamsungLabo"</strong>
-            <br><br>
-            <div class="icon">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <p>Szczególne podziękowania dla organizatorów projektu <strong>"SamsungLabo"</strong></p>
         </footer>
         <!--<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
         <script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(53.45838475278285,14.503977218275736),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(53.45838475278285,14.503977218275736)});infowindow = new google.maps.InfoWindow({content:'<strong>schronisko szczecin</strong><br>wojska polskiego <br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
