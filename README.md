@@ -1,4 +1,4 @@
-# getpet
+# Getpet
 
 Frontend mockup created as a part of the of the assignment project during internship at ***SamsungLabo***.
 
