@@ -2,7 +2,7 @@
 
 Frontend mockup created as a part of the of the assignment project during internship at ***SamsungLabo***.
 
-[Link to Mockup Page](https://avenazim.github.io/getpet/)
+[Link to Mockup Page](https://avenazim.github.io/Getpet/)
 
 
 ### Design brief:
